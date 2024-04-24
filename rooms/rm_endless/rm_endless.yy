@@ -10,6 +10,8 @@
     {"name":"inst_5808E493","path":"rooms/rm_endless/rm_endless.yy",},
     {"name":"inst_11799499","path":"rooms/rm_endless/rm_endless.yy",},
     {"name":"inst_4C6F38E7","path":"rooms/rm_endless/rm_endless.yy",},
+    {"name":"inst_166E5AB3","path":"rooms/rm_endless/rm_endless.yy",},
+    {"name":"inst_4F7224A7","path":"rooms/rm_endless/rm_endless.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -20,6 +22,8 @@
     {"$GMRInstanceLayer":"","%Name":"Border","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"","%Name":"inst_11799499","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_11799499","objectId":{"name":"obj_border","path":"objects/obj_border/obj_border.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":67.5,"x":416.0,"y":2176.0,},
         {"$GMRInstance":"","%Name":"inst_4C6F38E7","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4C6F38E7","objectId":{"name":"obj_border","path":"objects/obj_border/obj_border.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":67.5,"x":1504.0,"y":2176.0,},
+        {"$GMRInstance":"","%Name":"inst_166E5AB3","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_166E5AB3","objectId":{"name":"obj_border_player","path":"objects/obj_border_player/obj_border_player.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.5,"scaleY":67.5,"x":400.0,"y":2176.0,},
+        {"$GMRInstance":"","%Name":"inst_4F7224A7","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4F7224A7","objectId":{"name":"obj_border_player","path":"objects/obj_border_player/obj_border_player.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.5,"scaleY":67.5,"x":1520.0,"y":2176.0,},
       ],"layers":[],"name":"Border","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Obstacles","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"name":"Obstacles","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Road","assets":[

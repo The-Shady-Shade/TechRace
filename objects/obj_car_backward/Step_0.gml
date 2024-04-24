@@ -1,5 +1,5 @@
 if (obj_player.moving){
-	if (place_meeting(x, y+450, obj_wall)) && (!place_meeting(side*40, y, obj_border)){
+	if (place_meeting(x, y+450, obj_wall)) && (!place_meeting(side*45, y, obj_border)){
 		if (side == 1) && (image_angle < 300){
 			image_angle += 3;
 		}

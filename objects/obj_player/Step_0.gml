@@ -20,20 +20,20 @@ if (moving){
 	
 	var h_move = right - left;
 	
-	if (!place_meeting(x, y, obj_border)){
+	if (!place_meeting(x, y, obj_border_player)){
 		x += h_move * hsp;
 	}
 	
-	while(place_meeting(x+(h_move*hsp), y, obj_border)){
+	while(place_meeting(x+(h_move*hsp), y, obj_border_player)){
 		x -= h_move;
 	}
 
 	
-	if (left) && (image_angle <= 120){
+	if (left) && (image_angle < 120){
 		image_angle += 4;
 	}
 	
-	if (right) && (image_angle >= 60){
+	if (right) && (image_angle > 60){
 		image_angle -= 4;
 	}
 	
