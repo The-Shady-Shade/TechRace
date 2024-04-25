@@ -1,0 +1,1 @@
+transition(TRANS_MODE.GOTO, rm_menu);

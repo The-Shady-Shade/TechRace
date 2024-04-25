@@ -26,3 +26,5 @@ menu_cursor = 2;
 menu_top = menu_y - ((menu_item_h * 1.5) * menu_items);
 
 snd_alarm = 0;
+
+//audio_play_sound(snd_menu, 1, 1);

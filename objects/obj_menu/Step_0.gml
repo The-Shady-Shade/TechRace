@@ -5,13 +5,13 @@ if (menu_control){
 	if (keyboard_check_pressed(vk_up)){
 		menu_cursor++;
 		if (menu_cursor >= menu_items){menu_cursor = 0;}
-		audio_play_sound(snd_menu_choose, 5, 0);
+		//audio_play_sound(snd_menu_choose, 5, 0);
 	}
 	
 	if (keyboard_check_pressed(vk_down)){
 		menu_cursor--;
 		if (menu_cursor < 0){menu_cursor = menu_items - 1;}
-		audio_play_sound(snd_menu_choose, 5, 0);
+		//audio_play_sound(snd_menu_choose, 5, 0);
 	}
 	
 	if (keyboard_check_pressed(vk_enter)){
