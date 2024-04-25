@@ -14,6 +14,7 @@ menu_speed = 25;
 menu_font = fnt_neon_sans;
 menu_item_h = font_get_size(menu_font);
 
+gun = spr_gun;
 menu[0] = gun;
 
 menu_item = menu[0]
@@ -24,3 +25,5 @@ menu_cursor = 2;
 menu_top = menu_y - ((menu_item_h * 1.5) * menu_items);
 
 menu_item_created = false;
+
+audio_play_sound(snd_garage, 1, 1);

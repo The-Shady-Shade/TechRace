@@ -19,7 +19,9 @@ if (menu_control){
 		menu_commited = menu_cursor;
 		shake_screen(4, 30);
 		menu_control = false;
+		
 		audio_play_sound(snd_menu_confirm, 10, 0);
+		audio_stop_sound(snd_menu);
 	}
 	
 	var mouse_y_gui = device_mouse_y_to_gui(0);
@@ -35,6 +37,7 @@ if (menu_control){
 			menu_control = false;
 			
 			audio_play_sound(snd_menu_confirm, 10, 0);
+			audio_stop_sound(snd_menu);
 		}
 	}
 	

@@ -37,3 +37,4 @@ if (mouse_y_gui < menu_y) && (mouse_y_gui > menu_top) && (mouse_x_gui >= menu_x-
 		
 		audio_play_sound(snd_menu_confirm, 10, 0);
 	}
+}
