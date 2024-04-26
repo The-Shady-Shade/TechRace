@@ -16,6 +16,4 @@ image_angle = 90;
 image_speed = 0;
 image_index = 0;
 
-hasgun = 0;
-
 audio_play_sound(snd_lounge, 1, 1);

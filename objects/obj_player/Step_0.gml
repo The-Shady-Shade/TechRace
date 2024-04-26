@@ -3,6 +3,10 @@ if (start) && (keyboard_check_pressed(ord("W"))){
 	moving = true;
 }
 
+if (global.has_gun){
+	image_index = 1;
+}
+
 if (moving){
 	layer_y("Background", layer_get_y("Background")+global.spd);
 	
