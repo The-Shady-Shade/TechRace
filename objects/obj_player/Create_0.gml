@@ -1,5 +1,14 @@
+image_angle = 90;
+image_speed = 0;
+image_index = 0;
+
+if (global.has_gun){
+	image_index = 1;
+}
+
 start = true;
-moving = false;
+global.moving = false;
+global.alive = true;
 
 main_spd = 15;
 main_hsp = 8;
@@ -12,8 +21,7 @@ slowdown = 0.5;
 boosted = false;
 slowed = false;
 
-image_angle = 90;
-image_speed = 0;
-image_index = 0;
+shot_cd = 0;
 
-audio_play_sound(snd_lounge, 1, 1);
+music = choose(snd_lounge, snd_follow, snd_embush);
+audio_play_sound(music, 1, 1);

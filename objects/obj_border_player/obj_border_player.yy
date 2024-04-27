@@ -6,8 +6,8 @@
   "name":"obj_border_player",
   "overriddenProperties":[],
   "parent":{
-    "name":"Walls",
-    "path":"folders/Objects/Walls.yy",
+    "name":"Obstacles",
+    "path":"folders/Objects/Obstacles.yy",
   },
   "parentObjectId":null,
   "persistent":false,

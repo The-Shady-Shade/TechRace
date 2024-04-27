@@ -1,4 +1,4 @@
-draw_set_text(fnt_neon_sans, c_white, fa_right, fa_bottom);
+draw_set_text(fnt_silver, c_white, fa_right, fa_bottom);
 
 for (var i = 0; i < menu_items; i++){
 	var offset = 2;

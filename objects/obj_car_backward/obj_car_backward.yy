@@ -38,6 +38,9 @@
     "name":"spr_car_red",
     "path":"sprites/spr_car_red/spr_car_red.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"spr_car_red",
+    "path":"sprites/spr_car_red/spr_car_red.yy",
+  },
   "visible":true,
 }

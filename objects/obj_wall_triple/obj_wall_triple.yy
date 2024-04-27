@@ -6,8 +6,8 @@
   "name":"obj_wall_triple",
   "overriddenProperties":[],
   "parent":{
-    "name":"Walls",
-    "path":"folders/Objects/Walls.yy",
+    "name":"Obstacles",
+    "path":"folders/Objects/Obstacles.yy",
   },
   "parentObjectId":{
     "name":"obj_wall",

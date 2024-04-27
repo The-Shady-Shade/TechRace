@@ -1,4 +1,4 @@
-draw_set_font(fnt_neon_sans);
+draw_set_font(fnt_silver);
 
 draw_set_color(c_black);
 	draw_set_alpha(0.5);
@@ -11,7 +11,7 @@ for (var i=0; i < item_count; i++){
 	var item = arr[0];
 	
 	var xx = margin + menu_w/2;
-	var yy = (gui_h/2) + (i-selected_anim)*32;
+	var yy = (gui_h/2) + (i-selected_anim)*64; // Space between items
 	
 	var s = 1;
 	if (i == selected){
@@ -34,11 +34,11 @@ var desc = arr[2];
 var xx = (margin + menu_w) + preview_w/2;
 var yy = gui_h / 2;
 
-var spr = asset_get_index("spr_" + item);
+var spr = asset_get_index("spr_" + string_lower(item));
 
 if (sprite_exists(spr)){
 	var s = 7;
-	draw_sprite_ext(spr, 0, xx-margin, yy-24, s, s, 0, -1, 1);
+	draw_sprite_ext(spr, 0, xx-margin, yy-35, s, s, 0, -1, 1);
 }
 
 draw_set_halign(fa_center);

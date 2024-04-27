@@ -1,11 +1,12 @@
 function kill_player(){
+	global.moving = false;
+	global.alive = false;
 	with (obj_player){
-		moving = false;
 		motion_set(image_angle, 0);
-	} 
+		audio_stop_all();
+		image_index = 2;
+		instance_create_layer(x, y, "FX", obj_smoke);
+	}
 	
-	// shake_screen(10, 60);
-	
-	draw_set_text(fnt_neon_sans, c_red, fa_center, fa_middle);
-	draw_text(RES_W*0.5, RES_H*0.5, "Press R to restart.\nScore: " + string(global.score_race) + "\nMoney: " + string(global.score));
+	shake_screen(10, 60);
 }

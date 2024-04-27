@@ -1,5 +1,3 @@
-#macro SAVEFILE "Save.sav"
-
 gui_w = display_get_gui_width();
 gui_h = display_get_gui_height();
 gui_margin = 32;
@@ -10,7 +8,7 @@ menu_x_target = gui_w - gui_margin;
 
 menu_speed = 25;
 
-menu_font = fnt_neon_sans;
+menu_font = fnt_silver;
 menu_item_h = font_get_size(menu_font);
 
 menu_commited = -1;

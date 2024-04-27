@@ -1,8 +1,7 @@
 items = ds_list_create();
-
-ds_list_add(items, ["gun", 2500, "Destroy obstacles on your way!"]);
-ds_list_add(items, ["Engine", 1000, "Be faster!"]);
-ds_list_add(items, ["Nitro", 2500, "Crash obstacles!"])
+ds_list_add(items, ["Gun", 12500, "Press Space to destroy obstacles on your way!\nCooldown: 10 seconds."]);
+//ds_list_add(items, ["Engine", 1000, "Be faster!"]);
+//ds_list_add(items, ["Nitro", 2500, "Crash obstacles!"])
 
 item_count = ds_list_size(items);
 

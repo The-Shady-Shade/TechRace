@@ -5,13 +5,13 @@ if (menu_control){
 	if (keyboard_check_pressed(vk_up)){
 		menu_cursor++;
 		if (menu_cursor >= menu_items){menu_cursor = 0;}
-		//audio_play_sound(snd_menu_choose, 5, 0);
+		audio_play_sound(snd_choose, 5, 0);
 	}
 	
 	if (keyboard_check_pressed(vk_down)){
 		menu_cursor--;
 		if (menu_cursor < 0){menu_cursor = menu_items - 1;}
-		//audio_play_sound(snd_menu_choose, 5, 0);
+		audio_play_sound(snd_choose, 5, 0);
 	}
 	
 	if (keyboard_check_pressed(vk_enter)){
@@ -20,10 +20,12 @@ if (menu_control){
 		shake_screen(4, 30);
 		menu_control = false;
 		
-		audio_play_sound(snd_menu_confirm, 10, 0);
+		audio_play_sound(snd_confirm, 10, 0);
 		audio_stop_sound(snd_menu);
 	}
 	
+	#region Mouse Control
+	/*
 	var mouse_y_gui = device_mouse_y_to_gui(0);
 	var mouse_x_gui = device_mouse_x_to_gui(0);
 	
@@ -36,10 +38,12 @@ if (menu_control){
 			shake_screen(4, 30);
 			menu_control = false;
 			
-			audio_play_sound(snd_menu_confirm, 10, 0);
+			audio_play_sound(snd_confirm, 10, 0);
 			audio_stop_sound(snd_menu);
 		}
 	}
+	*/
+	#endregion
 	
 }
 

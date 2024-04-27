@@ -1,4 +1,4 @@
-if (obj_player.moving){
+if (global.moving){
 	if (place_meeting(x, y+450, obj_wall)) && (!place_meeting(side*45, y, obj_border)){
 		if (side == 1) && (image_angle < 300){
 			image_angle += 3;
@@ -21,3 +21,12 @@ if (obj_player.moving){
 } else {
 	motion_set(image_angle, 0);
 }
+
+#region Collision
+if (place_meeting(x, y, obj_bullet)){
+	with (obj_bullet){
+		instance_destroy();
+	}
+	instance_destroy();
+}
+#endregion
