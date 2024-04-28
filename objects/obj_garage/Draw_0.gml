@@ -38,7 +38,7 @@ var spr = asset_get_index("spr_" + string_lower(item));
 
 if (sprite_exists(spr)){
 	var s = 7;
-	draw_sprite_ext(spr, 0, xx-margin, yy-35, s, s, 0, -1, 1);
+	draw_sprite_ext(spr, 0, xx-margin, yy-50, s, s, 0, -1, 1);
 }
 
 draw_set_halign(fa_center);

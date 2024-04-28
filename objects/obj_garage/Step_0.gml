@@ -21,4 +21,6 @@ if (keyboard_check_pressed(vk_enter)) && (global.score >= price) && (selected = 
 	global.score -= price;
 	save_write();
 	audio_play_sound(snd_confirm, 10, 0);
+} else if (keyboard_check_pressed(vk_enter)) && (global.score < price) && (selected = 0) || (keyboard_check_pressed(vk_enter)) && (global.hasgun == 1) && (selected = 0){
+	audio_play_sound(snd_error, 10, 0);
 }

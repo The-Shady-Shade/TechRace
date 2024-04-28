@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"snd_choose",
+  "%Name":"snd_death",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -9,8 +9,8 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":6.0,
-  "name":"snd_choose",
+  "duration":2.675828,
+  "name":"snd_death",
   "parent":{
     "name":"SFX",
     "path":"folders/Sounds/SFX.yy",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_choose.ogg",
+  "soundFile":"snd_death.wav",
   "type":0,
-  "volume":0.25,
+  "volume":1.0,
 }

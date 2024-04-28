@@ -8,7 +8,6 @@ if (global.has_gun){
 
 start = true;
 global.moving = false;
-global.alive = true;
 
 main_spd = 15;
 main_hsp = 8;

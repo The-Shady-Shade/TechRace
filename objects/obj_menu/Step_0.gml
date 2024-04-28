@@ -49,8 +49,9 @@ if (menu_control){
 
 if (menu_x > gui_w+150) && (menu_commited != - 1){
 	switch(menu_commited){
-		case 2: transition(TRANS_MODE.GOTO, rm_endless); break;
-		case 1: transition(TRANS_MODE.GOTO, rm_garage); break;
+		case 3: transition(TRANS_MODE.GOTO, rm_endless); break;
+		case 2: transition(TRANS_MODE.GOTO, rm_garage); break;
+		case 1: transition(TRANS_MODE.GOTO, rm_credits); break;
 		case 0: game_end(); break;
 	}
 }
